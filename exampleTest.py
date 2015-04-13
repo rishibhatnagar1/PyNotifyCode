@@ -4,9 +4,9 @@ import os
 Notifier.notify('This is how it looks')
 Notifier.notify('Hello World', title='Python')
 Notifier.notify('Hello World', group=os.getpid())
-Notifier.notify('Hello World', activate='com.apple.Safari')
-Notifier.notify('Hello World', open='http://github.com/')
-Notifier.notify('Hello World', execute='say "OMG"')
+Notifier.notify('Browser', activate='com.apple.Safari')
+Notifier.notify('Website', open='http://github.com/')
+Notifier.notify('Some execution', execute='say "I am hungry!"')
 
 Notifier.remove(os.getpid())
 
